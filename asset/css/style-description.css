@@ -1,0 +1,51 @@
+.detiles-product{
+display: flex;
+flex-direction: column;
+gap: 15px;
+align-items: center;
+justify-content: center;
+border: 1px solid black;
+border-radius: 10px;
+padding: 20px;
+}
+
+.detiles-product .title{
+font-size: 28px;
+}
+
+.detiles-product .description{
+font-size: 30px;
+text-align: center;
+text-transform: capitalize;
+}
+.description span{
+   
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.detiles-product .price{
+    font-size: 20px;
+    padding: 10px;
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+
+.detiles-product img{
+    width: 250px;
+    height: 220px;
+}
+
+span{
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+span span{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
